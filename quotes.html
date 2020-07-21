@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a6e5683739.js" crossorigin="anonymous"></script>
+        <title>Harvard Ed Portal</title>
+    </head>
+
+    <div class="header">
+        <img src=logo.jpg height=80px width=200px><h3 class="center">Harvard Ed Portal</h3>
+    </div>
+    <br>
+
+<nav>
+    <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#art.html"><i class="fas fa-palette"></i> Arts <i class="fas fa-caret-down"></i></a>
+            <ul>
+                <li><a href="sampledropdown.html"> Student profiles</a></li>
+                <li><a href="#"> Final Projects</a></li>
+                <li><a href="#"> Video production</a></li>
+            </ul>
+        </li>
+        <li><a href="art.html"><i class="fas fa-palette"></i> Arts</a></li>
+        <li><a href="labskills.html"><i class="fas fa-flask"></i> Lab Skills</a></li>
+        <li><a href="storytelling.html"><i class="fas fa-book"></i> Storytelling</a></li>
+        <li><a href="webdevelop.html"><i class="fas fa-laptop"></i> Web Development</a></li>
+        <li><a href="youthprogram.html"><i class="fas fa-apple-alt"></i> Youth Programming</a></li>
+        <li><a href="gallery.html"><i class="fa fa-camera"></i> Gallery/Student Profiles</a></li> <!-- This is a tab for pictures or student profiles -->
+    </ul>
+</nav>
+    </html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #ffffff;
+  font-size: 24px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/8 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 8</div>
+  <img src="https://www.slashfilm.com/wp/wp-content/images/Walt-Disney-Animation-logo.jpg" style="width:100%">
+  <div class="text">“The Way To Get Started Is To Quit Talking And Begin Doing.” – Walt Disney</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 8</div>
+  <img src="https://thewallpaper.co//wp-content/uploads/2016/01/nature-backgrounds-widescreen-mac-desktop-images-free-nature-images-high-resolution-images-field-gorgeous-views-download-images-2262x1354.jpg" style="width:100%">
+  <div class="text">“Don’t Let Yesterday Take Up Too Much Of Today.” – Will Rogers</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 8</div>
+  <img src="https://afreshstartmovingco.com/wp-content/uploads/parser/beautiful-scenery-wallpapers-1.jpg" style="width:100%">
+  <div class="text">“People Who Are Crazy Enough To Think They Can Change The World, Are The Ones Who Do.” – Rob Siltanen</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 8</div>
+  <img src="https://images.squarespace-cdn.com/content/v1/527c03e4e4b03247a686bb74/1567535497154-PP7JB5DTU0Q8RXULTKOY/ke17ZwdGBToddI8pDm48kHH9S2ID7_bpupQnTdrPcoF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0nQwvinDXPV4EYh2MRzm-RRB5rUELEv7EY2n0AZOrEupxpSyqbqKSgmzcCPWV5WMiQ/printA.JPG" style="width:100%">
+  <div class="text">“Don’t Let Yesterday Take Up Too Much Of Today.” – Will Rogers</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 8</div>
+  <img src="https://d3hg7snzn13jf0.cloudfront.net/files/allabout/197/197--6aa89d928da447d4a85ee0947140e366.jpg" style="width:100%">
+  <div class="text">“You Are Never Too Old To Set Another Goal Or To Dream A New Dream.” – C.S. Lewis</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 8</div>
+  <img src="https://cdn.pixabay.com/photo/2020/04/19/09/16/scenery-5062632_960_720.jpg" style="width:100%">
+  <div class="text">"Either you run the day, or the day runs you." –Jim Rohn</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 8</div>
+  <img src= "https://www.usnews.com/dims4/USNEWS/93c0377/2147483647/thumbnail/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F38%2F66%2Fc0bf74ea4d0d878e45fec703c17c%2F1-intro.jpg" style="width:100%">
+  <div class="text">"Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference."  –Robert Frost  </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 8</div>
+  <img src= "https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/fbdms-ED6JGHW0HR5-Full-Image_GalleryBackground-en-US-1589235037215._SX1080_.jpg" style="width:100%">
+  <div class="text">"Every child is an artist.  The problem is how to remain an artist once he grows up." –Pablo Picasso </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html> 
+
+
+
