@@ -24,6 +24,7 @@ nav ul li a {
   text-decoration: none;
   padding: 15px;
   transition: 0.4s;
+  z-index:9999;
 }
 
 nav ul li ul {
@@ -31,6 +32,7 @@ nav ul li ul {
   position: absolute;
   background-color:#A51C30;
   padding:10px;
+  z-index:9999;
 }
 
 nav ul li:hover ul {
@@ -45,35 +47,73 @@ nav ul li ul li a {
   padding: 8px 14px;
 }
 nav ul li ul li a:hover {
-  background-color: #FFB185;
-  transition: 0.2s;
+  color: white;
+  background-color: #7c1c05;
+  transition: 0.3s;
+  text-decoration: none;
 }
 
 li a:hover {
-  background-color: #FFB185;
-  transition: 0.2s;
+  color: white;
+  background-color: #7c1c05;
+  transition: 0.3s;
+  text-decoration: none;
 }
-
 
 .grid-container {
   display: grid;
-  grid-gap: 15px;
+  grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);;
   background-color: #A51C30;
   padding: 10px;
   table-layout: fixed
 }
 
+.grid-container1 {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);;
+  background-color: #A51C30;
+  padding: 15px;
+  table-layout: fixed
+}
+
+.grid-containerBIOS {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);;
+  background-color: #A51C30;
+  padding: 30px;
+  table-layout: fixed
+
+}
 
 .grid-item {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  font-size: 30px;
+  color: #A51C30;
+  text-align: center;
+}
+.grid-item1 {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  font-size: 30px;
+  color: #A51C30;
+  text-align: center;
+}
+
+
+.grid-itemBIOS {
+  background-image: "bioURL";
   padding: 20px;
   font-size: 30px;
   color: #A51C30;
   text-align: center;
-
 }
+
 
 a {
  color: #A51C30;
@@ -86,19 +126,7 @@ a {
 	left:0;
 
 }
-h1{
-  background-color: white;
-  text-align: center;
-  color:#A51C30;
-  font-weight: bold;
-  font-size: 50px;
-  position: relative;
-}
 
-h2{
-  top:1;
-  left:1;
-}
 
 
 .intro {
@@ -106,12 +134,14 @@ h2{
   padding: 8px;
   margin: 20px;
   box-shadow: 2px 2px #A51C30;
+  font-size:20px;
 }
 
 .header {
   width:1215px;
   height:75px;
   padding: 10px;
+
 }
 
 
@@ -119,8 +149,8 @@ h3 {
   text-align: center;
   line-height: 1px;
   color:#A51C30;
-  font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
+
 
 }
 
@@ -129,7 +159,10 @@ h3 {
   top: 6%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%) }
+  transform: translate(-50%, -50%)
+
+
+}
 
 
 .footer {
@@ -138,11 +171,88 @@ h3 {
   text-align: center;
 }
 
-.margin {
-  margin: 20px;
-}
+
 
 
 indent {
   text-indent: 50px;
+}
+
+/* please don't delete */
+.middle {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Image Headers */
+.imageheader {
+  display: block;
+  width: 100%;
+  padding: 30px;
+}
+
+/* Student Profiles */
+.studentbios_column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.studentbios_row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Cohort Introductions */
+.cohort_introduction {
+  background-color: #A51C30;
+  padding: 30px;
+}
+
+.cohort_introheader h2 {
+ font-family: serif;
+ font-variant: small-caps;
+ font-size: 60px;
+ color: white;
+}
+
+.cohort_intro h4 {
+ font-family: serif;
+ font-variant: small-caps;
+ font-size: 35px;
+ color: white;
+}
+
+.cohort_intro {
+  font-family: serif;
+  font-size: 20px;
+  color: white;
+}
+
+.cohortinfo h5 {
+ font-family: serif;
+ font-variant: small-caps;
+ font-size: 35px;
+ color: white;
+}
+
+.cohortinfo {
+ font-family: serif;
+ font-size: 20px;
+ color: white;
+}
+
+.margin {
+  margin: 20px;
+}
+
+.icon {
+    min-height: 200px;
+    max-height: 200px;
+   
+}
+
+.left {
+  text-align: left;
 }
