@@ -1,3 +1,11 @@
+/* Navigation Bar */
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width:1440px;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -105,7 +113,6 @@ li a:hover {
   text-align: center;
 }
 
-
 .grid-itemBIOS {
   background-image: "bioURL";
   padding: 20px;
@@ -127,8 +134,6 @@ a {
 
 }
 
-
-
 .intro {
   border: 2px solid #A51C30;
   padding: 8px;
@@ -137,31 +142,23 @@ a {
   font-size:20px;
 }
 
+/* Title of homepage */
 .header {
+  display:fixed;
   width:1215px;
   height:75px;
   padding: 10px;
 
 }
 
-
 h3 {
   text-align: center;
+  display: inline-block;
+  text-indent: 4em;
+  padding-top:30px;
   line-height: 1px;
   color:#A51C30;
   font-size: 40px;
-
-
-}
-
-.center {
-  position: absolute;
-  top: 6%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
-
-
 }
 
 
@@ -170,8 +167,6 @@ h3 {
   margin: 20px;
   text-align: center;
 }
-
-
 
 
 indent {
@@ -195,7 +190,7 @@ indent {
 .studentbios_column {
   float: left;
   width: 50%;
-  padding: 5px;
+  padding: 70px;
 }
 
 .studentbios_row:after {
@@ -250,9 +245,15 @@ indent {
 .icon {
     min-height: 200px;
     max-height: 200px;
-   
+
 }
 
 .left {
   text-align: left;
+}
+.abc{
+  color: Black;
+  font-weight: Bold;
+  text-align: left;
+  font-size:30px;
 }
